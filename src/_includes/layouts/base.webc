@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html :lang="metadata.language">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title @text="title || metadata.title"></title>
+		<meta name="description" :content="description || metadata.description" />
+		<meta name="generator" :content="eleventy.generator" />
+
+		<!--- This is rolled into the bundle. --->
+		<link rel="stylesheet" href="styles/styles.css" />
+
+		<style webc:keep @raw="getBundle('css')"></style>
+	</head>
+	<body>
+		<dyb-header></dyb-header>
+
+		<main @raw="content"></main>
+
+		<dyb-footer></dyb-footer>
+
+		<script type="module" webc:keep @raw="getBundle('js')"></script>
+	</body>
+</html>
