@@ -13,11 +13,11 @@
 		<style webc:keep @raw="getBundle('css')"></style>
 	</head>
 	<body>
-		<dyb-header></dyb-header>
+		<dyb-header webc:keep></dyb-header>
 
 		<main @raw="content"></main>
 
-		<dyb-footer></dyb-footer>
+		<dyb-footer webc:keep></dyb-footer>
 
 		<script type="module" webc:keep @raw="getBundle('js')"></script>
 	</body>
