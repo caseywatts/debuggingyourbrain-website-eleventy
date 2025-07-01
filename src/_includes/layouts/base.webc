@@ -13,7 +13,7 @@
 		<style webc:keep @raw="getBundle('css')"></style>
 	</head>
 	<body>
-		<dyb-header webc:keep></dyb-header>
+		<dyb-header></dyb-header>
 
 		<main @raw="content"></main>
 

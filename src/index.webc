@@ -3,4 +3,6 @@ layout: "layouts/base.webc"
 title: My Rad Markdown Blog Post
 ---
 
+<dyb-hero></dyb-hero>
+
 CONTENT
