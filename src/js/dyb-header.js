@@ -19,6 +19,7 @@ class DYBHeader extends LitElement {
 							display: flex;
 							justify-content: space-between;
 							gap: var(--size-2);
+							padding: 0;
 							li {
 								display: inline-block;
 								padding: var(--size-2);
@@ -30,18 +31,17 @@ class DYBHeader extends LitElement {
 					}
 				}
 
-				@media (width > 1024px) {
+				@media (width > 768px) {
 					header {
 						flex-direction: row;
 					}
 				}
-				@media (width <= 1024px) {
+				@media (width <= 768px) {
 					header {
 						flex-direction: column;
 						nav {
 							width: 100%;
 							ul {
-								padding: 0;
 								flex-direction: column;
 							}
 						}
