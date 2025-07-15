@@ -20,6 +20,7 @@ class DYBHeader extends LitElement {
 
 					h1 {
 						font-size: var(--font-size-6);
+						margin: 0;
 					}
 					nav {
 						ul {
@@ -52,7 +53,7 @@ class DYBHeader extends LitElement {
 			</style>
 			<header>
 				<h1>Debugging Your Brain</h1>
-				<div class="header-emoji">🔢 😩 → ✨😄</div>
+				<div class="header-emoji">😩 → 😄</div>
 				<nav>
 					<ul>
 						<li><a href="#topics">topics</a></li>
