@@ -22,6 +22,9 @@ class DYBHeader extends LitElement {
 							li {
 								display: inline-block;
 								padding: var(--size-2);
+								font-size: var(--font-size-3);
+								font-weight: var(--font-weight-3);
+								letter-spacing: var(--font-letterspacing-2);
 							}
 						}
 					}
@@ -36,7 +39,9 @@ class DYBHeader extends LitElement {
 					header {
 						flex-direction: column;
 						nav {
+							width: 100%;
 							ul {
+								padding: 0;
 								flex-direction: column;
 							}
 						}
