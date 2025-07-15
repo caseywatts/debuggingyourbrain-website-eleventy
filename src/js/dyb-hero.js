@@ -4,6 +4,9 @@ class DYBHero extends LitElement {
 	render() {
 		return html`
 			<style>
+				* {
+					box-sizing: border-box;
+				}
 				.dyb-hero {
 					width: 100%;
 					background-color: rebeccapurple;
@@ -20,6 +23,9 @@ class DYBHero extends LitElement {
 						padding: var(--size-6);
 						max-width: var(--size-15);
 					}
+				}
+				.panel {
+					margin: var(--size-6);
 				}
 			</style>
 			<div class="dyb-hero">
