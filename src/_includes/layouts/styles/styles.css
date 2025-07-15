@@ -45,3 +45,29 @@ h6 {
 h1 {
 	font-size: var(--font-size-6);
 }
+h2 {
+	font-size: var(--font-size-5);
+}
+h3 {
+	font-size: var(--font-size-4);
+}
+h4 {
+	font-size: var(--font-size-3);
+}
+
+.button-link {
+	display: inline-block;
+	padding: var(--size-3);
+	background-color: var(--surface-4);
+	color: var(--text-1);
+	text-decoration: none;
+
+	&:hover {
+		color: var(--text-2);
+		background-color: var(--surface-3);
+	}
+}
+
+p ~ p {
+	margin-top: var(--size-3);
+}

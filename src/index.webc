@@ -3,6 +3,15 @@ layout: "layouts/base.webc"
 title: My Rad Markdown Blog Post
 ---
 
-<dyb-hero></dyb-hero>
+<dyb-hero>
+	<div slot="left">
+		<p><strong>psychology</strong> techniques to rewire your brain</p>
+		<p>using <strong>software development</strong> metaphors</p>
+	</div>
+	<div slot="right">
+		<p>"Exactly the documentation I needed!"</p>
+		<p>— Sean Perkins, Software Developer</p>
+	</div>
+</dyb-hero>
 
 CONTENT
