@@ -1,0 +1,23 @@
+import { LitElement, html, css } from "lit";
+
+class DYBHero extends LitElement {
+	render() {
+		return html`
+			<div class="dyb-hero">
+				<div>
+					<h2>Debugging Your Brain</h2>
+					<p>
+						<strong>psychology</strong> techniques to rewire your brain using
+						<strong>software development</strong> metaphors
+					</p>
+					<a href="#" class="button-link">Buy Book</a>
+				</div>
+				<div>
+					<p>“Someone wrote the documentation I actually needed!"</p>
+					<p>— Sean Perkins, Software Developer</p>
+				</div>
+			</div>
+		`;
+	}
+}
+customElements.define("dyb-hero", DYBHero);

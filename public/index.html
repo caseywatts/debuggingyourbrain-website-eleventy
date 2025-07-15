@@ -54,47 +54,6 @@ h6 {
 	font-weight: var(--font-weight-4);
 }
 
-.header-emoji {
-	font-size: var(--font-size-6);
-}
-
-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	box-shadow: var(--shadow-3);
-	background-color: var(--surface-1);
-	padding: var(--size-2);
-	padding-left: var(--size-4);
-	padding-right: var(--size-4);
-
-	h1 {
-		font-size: var(--font-size-6);
-	}
-	nav {
-		ul {
-			display: flex;
-			justify-content: space-between;
-			gap: var(--size-2);
-			li {
-				display: inline-block;
-				padding: var(--size-2);
-			}
-		}
-	}
-}
-
-@media (width > 1024px) {
-	header {
-		flex-direction: row;
-	}
-}
-@media (width <= 1024px) {
-	header {
-		flex-direction: column;
-	}
-}
-
 .dyb-hero {
 	background-color: rebeccapurple;
 	width: 100%;
@@ -123,43 +82,91 @@ header {
 }</style>
 	</head>
 	<body>
-		
-<header>
-	<h1>Debugging Your Brain</h1>
-	<div class="header-emoji">🔢 😩 → ✨😄</div>
-	<nav>
-		<ul>
-			<li><a href="#topics">topics</a></li>
-			<li><a href="#reviews">reviews</a></li>
-			<li><a href="#preview">preview</a></li>
-			<li><a href="#resources">resources</a></li>
-			<li><a href="#formats">where to buy</a></li>
-		</ul>
-	</nav>
-</header>
+		<dyb-header><template shadowroot="open" shadowrootmode="open"><!--lit-part xPyZYRRlJdk=-->
+			<style>
+				.header-emoji {
+					font-size: var(--font-size-6);
+				}
 
+				header {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					box-shadow: var(--shadow-3);
+					background-color: var(--surface-1);
+					padding: var(--size-2);
+					padding-left: var(--size-4);
+					padding-right: var(--size-4);
 
-		<main><div class="dyb-hero">
-	<div>
-		<h2>Debugging Your Brain</h2>
-		<p>
-			<strong>psychology</strong> techniques to rewire your brain using
-			<strong>software development</strong> metaphors
-		</p>
-		<a href="#" class="button-link">Buy Book</a>
-	</div>
-	<div>
-		<p>“Someone wrote the documentation I actually needed!"</p>
-		<p>— Sean Perkins, Software Developer</p>
-	</div>
-</div>
+					h1 {
+						font-size: var(--font-size-6);
+					}
+					nav {
+						ul {
+							display: flex;
+							justify-content: space-between;
+							gap: var(--size-2);
+							li {
+								display: inline-block;
+								padding: var(--size-2);
+							}
+						}
+					}
+				}
 
+				@media (width > 1024px) {
+					header {
+						flex-direction: row;
+					}
+				}
+				@media (width <= 1024px) {
+					header {
+						flex-direction: column;
+						nav {
+							ul {
+								flex-direction: column;
+							}
+						}
+					}
+				}
+			</style>
+			<header>
+				<h1>Debugging Your Brain</h1>
+				<div class="header-emoji">🔢 😩 → ✨😄</div>
+				<nav>
+					<ul>
+						<li><a href="#topics">topics</a></li>
+						<li><a href="#reviews">reviews</a></li>
+						<li><a href="#preview">preview</a></li>
+						<li><a href="#resources">resources</a></li>
+						<li><a href="#formats">where to buy</a></li>
+					</ul>
+				</nav>
+			</header>
+		<!--/lit-part--></template></dyb-header>
+
+		<main><dyb-hero><template shadowroot="open" shadowrootmode="open"><!--lit-part hn4FFp3pVDE=-->
+			<div class="dyb-hero">
+				<div>
+					<h2>Debugging Your Brain</h2>
+					<p>
+						<strong>psychology</strong> techniques to rewire your brain using
+						<strong>software development</strong> metaphors
+					</p>
+					<a href="#" class="button-link">Buy Book</a>
+				</div>
+				<div>
+					<p>“Someone wrote the documentation I actually needed!"</p>
+					<p>— Sean Perkins, Software Developer</p>
+				</div>
+			</div>
+		<!--/lit-part--></template></dyb-hero>
+<demo-greeter name="World"></demo-greeter>
 
 CONTENT
 </main>
 
-		<dyb-footer><footer>FOOTER</footer>
-</dyb-footer>
+		<dyb-footer><template shadowroot="open" shadowrootmode="open"><!--lit-part WBNKD3K2qwM=--> <footer>FOOTER</footer> <!--/lit-part--></template></dyb-footer>
 
 		<script type="module"></script>
 	
