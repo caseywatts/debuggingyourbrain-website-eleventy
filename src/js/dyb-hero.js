@@ -15,7 +15,6 @@ class DYBHero extends LitElement {
 					align-content: space-evenly;
 					align-items: center;
 					min-height: var(--size-14);
-					gap: var(--size-2);
 					flex-wrap: wrap;
 					padding: var(--size-3);
 					div {
