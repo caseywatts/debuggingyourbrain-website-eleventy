@@ -41,3 +41,7 @@ h6 {
 	font-family: var(--font-family-headings);
 	font-weight: var(--font-weight-4);
 }
+
+h1 {
+	font-size: var(--font-size-6);
+}

@@ -4,10 +4,6 @@ class DYBHeader extends LitElement {
 	render() {
 		return html`
 			<style>
-				.header-emoji {
-					font-size: var(--font-size-6);
-				}
-
 				header {
 					display: flex;
 					align-items: center;
@@ -18,10 +14,6 @@ class DYBHeader extends LitElement {
 					padding-left: var(--size-4);
 					padding-right: var(--size-4);
 
-					h1 {
-						font-size: var(--font-size-6);
-						margin: 0;
-					}
 					nav {
 						ul {
 							display: flex;
@@ -52,15 +44,12 @@ class DYBHeader extends LitElement {
 				}
 			</style>
 			<header>
-				<h1>Debugging Your Brain</h1>
-				<div class="header-emoji">😩 → 😄</div>
+				<slot name="title"></slot>
 				<nav>
 					<ul>
-						<li><a href="#topics">topics</a></li>
 						<li><a href="#reviews">reviews</a></li>
-						<li><a href="#preview">preview</a></li>
-						<li><a href="#resources">resources</a></li>
-						<li><a href="#formats">where to buy</a></li>
+						<li><a href="#preview">book preview</a></li>
+						<li><a href="#formats">buy</a></li>
 					</ul>
 				</nav>
 			</header>

@@ -13,7 +13,9 @@
 		<style webc:keep @raw="getBundle('css')"></style>
 	</head>
 	<body>
-		<dyb-header></dyb-header>
+		<dyb-header>
+			<h1 slot="title">Debugging Your Brain</h1>
+		</dyb-header>
 
 		<main @raw="content"></main>
 
