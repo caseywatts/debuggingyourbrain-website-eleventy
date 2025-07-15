@@ -4,6 +4,5 @@ title: My Rad Markdown Blog Post
 ---
 
 <dyb-hero></dyb-hero>
-<demo-greeter name="World"></demo-greeter>
 
 CONTENT
