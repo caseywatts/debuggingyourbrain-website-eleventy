@@ -17,9 +17,7 @@
 			<h1 slot="title">Debugging Your Brain</h1>
 		</dyb-header>
 
-		<main @raw="content"></main>
-
-		<dyb-footer webc:keep></dyb-footer>
+		<div @raw="content"></div>
 
 		<script type="module" webc:keep @raw="getBundle('js')"></script>
 	</body>

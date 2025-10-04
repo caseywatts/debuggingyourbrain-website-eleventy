@@ -54,7 +54,8 @@ class DYBHeader extends LitElement {
 					<ul>
 						<li><a href="#reviews">reviews</a></li>
 						<li><a href="#preview">book preview</a></li>
-						<li><a href="#formats">buy</a></li>
+						<li><a href="#downloads">free downloads</a></li>
+						<li><a href="#buy">buy</a></li>
 					</ul>
 				</nav>
 			</header>

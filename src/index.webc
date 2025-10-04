@@ -9,8 +9,11 @@ title: Debugging Your Brain
 		<p>using <strong>software development</strong> metaphors</p>
 	</div>
 	<div slot="right">
-		<p>"Exactly the documentation I needed!"</p>
-		<p>— Sean Perkins, Software Developer</p>
+		<blockquote>
+			A worthy, tightly organized, and intriguing program for rethinking
+			thinking.
+			<cite>Kirkus Reviews</cite>
+		</blockquote>
 	</div>
 </dyb-hero>
 
@@ -27,19 +30,6 @@ title: Debugging Your Brain
 			You'll learn psychology concepts like Cognitive Behavioral Therapy (CBT)
 			via software development metaphors.
 		</p>
-	</section>
-	<section>
-		<h2>Keynote at The PERL Conference 2019</h2>
-		<div class="embed-youtube-video">
-			<iframe
-				src="https://www.youtube.com/embed/nj3IoW_rboE?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-				frameborder="0"
-				style="width: 100%; aspect-ratio: 16/9"
-				allow="autoplay; encrypted-media"
-				allowfullscreen=""
-				title="A Neurobiologist's Guide to Effectiveness"
-			></iframe>
-		</div>
 	</section>
 	<section>
 		<h2>What does the book cover?</h2>
@@ -87,7 +77,7 @@ title: Debugging Your Brain
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="reviews">
 		<h2>Reviews</h2>
 		<div class="grid-2-3">
 			<div class="grid-card">
@@ -150,7 +140,7 @@ title: Debugging Your Brain
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="preview">
 		<h2>Preview The Book</h2>
 		<h3>Preview Chapter</h3>
 		<iframe
@@ -169,7 +159,7 @@ title: Debugging Your Brain
 			title="Audiobook Sample"
 		></iframe>
 	</section>
-	<section>
+	<section id="downloads">
 		<h2>Free Downloads</h2>
 		<h3>Download the Sample Chapter</h3>
 		<a
@@ -198,6 +188,19 @@ title: Debugging Your Brain
 		</a>
 	</section>
 	<section>
+		<h2>Keynote at The PERL Conference 2019</h2>
+		<div class="embed-youtube-video">
+			<iframe
+				src="https://www.youtube.com/embed/nj3IoW_rboE?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+				frameborder="0"
+				style="width: 100%; aspect-ratio: 16/9"
+				allow="autoplay; encrypted-media"
+				allowfullscreen=""
+				title="A Neurobiologist's Guide to Effectiveness"
+			></iframe>
+		</div>
+	</section>
+	<section id="buy">
 		<h2>Buy Book</h2>
 		<p>Available as an audiobook, eBook, or printed book.</p>
 		<h3>Discount Combination: eBook + Audiobook</h3>

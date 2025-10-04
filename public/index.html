@@ -131,7 +131,7 @@ del {
 }</style>
 	</head>
 	<body>
-		<dyb-header><template shadowroot="open" shadowrootmode="open"><!--lit-part /4kvIqHgke8=-->
+		<dyb-header><template shadowroot="open" shadowrootmode="open"><!--lit-part EhFT/etD9lc=-->
 			<style>
 				header {
 					display: flex;
@@ -183,7 +183,8 @@ del {
 					<ul>
 						<li><a href="#reviews">reviews</a></li>
 						<li><a href="#preview">book preview</a></li>
-						<li><a href="#formats">buy</a></li>
+						<li><a href="#downloads">free downloads</a></li>
+						<li><a href="#buy">buy</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -191,7 +192,7 @@ del {
 			<h1 slot="title">Debugging Your Brain</h1>
 		</dyb-header>
 
-		<main><dyb-hero><template shadowroot="open" shadowrootmode="open"><!--lit-part dZH6Xuvtueg=-->
+		<div><dyb-hero><template shadowroot="open" shadowrootmode="open"><!--lit-part dZH6Xuvtueg=-->
 			<style>
 				* {
 					box-sizing: border-box;
@@ -230,8 +231,11 @@ del {
 		<p>using <strong>software development</strong> metaphors</p>
 	</div>
 	<div slot="right">
-		<p>"Exactly the documentation I needed!"</p>
-		<p>— Sean Perkins, Software Developer</p>
+		<blockquote>
+			A worthy, tightly organized, and intriguing program for rethinking
+			thinking.
+			<cite>Kirkus Reviews</cite>
+		</blockquote>
 	</div>
 </dyb-hero>
 
@@ -248,12 +252,6 @@ del {
 			You'll learn psychology concepts like Cognitive Behavioral Therapy (CBT)
 			via software development metaphors.
 		</p>
-	</section>
-	<section>
-		<h2>Keynote at The PERL Conference 2019</h2>
-		<div class="embed-youtube-video">
-			<iframe src="https://www.youtube.com/embed/nj3IoW_rboE?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" title="A Neurobiologist's Guide to Effectiveness" style="width: 100%; aspect-ratio: 16/9"></iframe>
-		</div>
 	</section>
 	<section>
 		<h2>What does the book cover?</h2>
@@ -301,7 +299,7 @@ del {
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="reviews">
 		<h2>Reviews</h2>
 		<div class="grid-2-3">
 			<div class="grid-card">
@@ -364,14 +362,14 @@ del {
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="preview">
 		<h2>Preview The Book</h2>
 		<h3>Preview Chapter</h3>
 		<iframe src="https://drive.google.com/file/d/1-DM9iOvpsX7saN7XNpy2RSGQoK8i7x73/preview" width="100%" allow="autoplay" style="aspect-ratio: 1 / 1"></iframe>
 		<h3>Audiobook Sample</h3>
 		<iframe src="https://www.youtube-nocookie.com/embed/pGEeasZi7-U?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=1&amp;start=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" title="Audiobook Sample" style="width: 100%; aspect-ratio: 16/9"></iframe>
 	</section>
-	<section>
+	<section id="downloads">
 		<h2>Free Downloads</h2>
 		<h3>Download the Sample Chapter</h3>
 		<a href="https://happyandeffective.gumroad.com/l/dyb-sample" class="button-link">
@@ -394,6 +392,12 @@ del {
 		</a>
 	</section>
 	<section>
+		<h2>Keynote at The PERL Conference 2019</h2>
+		<div class="embed-youtube-video">
+			<iframe src="https://www.youtube.com/embed/nj3IoW_rboE?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" title="A Neurobiologist's Guide to Effectiveness" style="width: 100%; aspect-ratio: 16/9"></iframe>
+		</div>
+	</section>
+	<section id="buy">
 		<h2>Buy Book</h2>
 		<p>Available as an audiobook, eBook, or printed book.</p>
 		<h3>Discount Combination: eBook + Audiobook</h3>
@@ -422,9 +426,7 @@ del {
 </main>
 
 <footer>© 2022 Casey Steven Watts. All rights reserved</footer>
-</main>
-
-		<dyb-footer><template shadowroot="open" shadowrootmode="open"><!--lit-part WBNKD3K2qwM=--> <footer>FOOTER</footer> <!--/lit-part--></template></dyb-footer>
+</div>
 
 		<script type="module"></script>
 	
