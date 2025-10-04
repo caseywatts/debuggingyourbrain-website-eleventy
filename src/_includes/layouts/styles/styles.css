@@ -112,3 +112,8 @@ blockquote cite {
 blockquote cite:before {
 	content: "—";
 }
+
+del {
+	background-color: inherit;
+	color: inherit;
+}
