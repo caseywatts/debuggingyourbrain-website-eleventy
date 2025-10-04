@@ -83,6 +83,10 @@ section h2 {
 	padding-bottom: 2rem;
 }
 
+section h3 {
+	padding-bottom: 1rem;
+}
+
 .grid-2-3 {
 	display: grid;
 	grid-template: auto / auto auto auto;
@@ -91,4 +95,12 @@ section h2 {
 
 .grid-card {
 	min-width: 10rem;
+}
+
+blockquote cite {
+	text-align: right;
+}
+
+blockquote cite:before {
+	content: "—";
 }
