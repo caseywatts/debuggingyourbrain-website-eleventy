@@ -72,6 +72,10 @@ p ~ p {
 	margin-top: var(--size-3);
 }
 
+main {
+	padding: 1rem;
+}
+
 section {
 	padding-block: 2rem;
 	margin: auto;
@@ -80,11 +84,15 @@ section {
 }
 
 section h2 {
-	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+}
+
+section > h3 {
+	margin-top: 2rem;
 }
 
 section h3 {
-	padding-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .grid-2-3 {

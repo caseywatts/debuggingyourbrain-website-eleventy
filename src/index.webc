@@ -150,4 +150,23 @@ title: Debugging Your Brain
 			</div>
 		</div>
 	</section>
+	<section>
+		<h2>Preview The Book</h2>
+		<h3>Preview Chapter</h3>
+		<iframe
+			src="https://drive.google.com/file/d/1-DM9iOvpsX7saN7XNpy2RSGQoK8i7x73/preview"
+			style="aspect-ratio: 1 / 1"
+			width="100%"
+			allow="autoplay"
+		></iframe>
+		<h3>Audiobook Sample</h3>
+		<iframe
+			src="https://www.youtube-nocookie.com/embed/pGEeasZi7-U?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=1&amp;start=0"
+			frameborder="0"
+			style="width: 100%; aspect-ratio: 16/9"
+			allow="autoplay; encrypted-media"
+			allowfullscreen=""
+			title="Audiobook Sample"
+		></iframe>
+	</section>
 </main>
