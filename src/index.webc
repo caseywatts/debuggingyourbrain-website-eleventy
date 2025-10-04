@@ -14,4 +14,77 @@ title: Debugging Your Brain
 	</div>
 </dyb-hero>
 
-CONTENT
+<main>
+	<section>
+		<h2>What makes this Book unique?</h2>
+		<p>In this book, the author Casey brings together his two backgrounds:</p>
+		<ol>
+			<li><strong>Neuroscience</strong> at Yale University</li>
+			<li><strong>Software Development</strong> for 10+ years</li>
+		</ol>
+
+		<p>
+			You'll learn psychology concepts like Cognitive Behavioral Therapy (CBT)
+			via software development metaphors.
+		</p>
+	</section>
+	<section>
+		<h2>Keynote at The PERL Conference 2019</h2>
+		<div class="embed-youtube-video">
+			<iframe
+				src="https://www.youtube.com/embed/nj3IoW_rboE?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+				frameborder="0"
+				style="width: 100%; aspect-ratio: 16/9"
+				allow="autoplay; encrypted-media"
+				allowfullscreen=""
+				title="A Neurobiologist's Guide to Effectiveness"
+			></iframe>
+		</div>
+	</section>
+	<section>
+		<h2>What does the book cover?</h2>
+		<div class="grid-2-3">
+			<div class="grid-card">
+				<h3>Modeling The Brain</h3>
+				<p>
+					A discrete mental model of how your mind works, especially around
+					thoughts and emotions.
+				</p>
+			</div>
+			<div class="grid-card">
+				<h3>Cognitive Behavioral Therapy</h3>
+				<p>
+					An overview of the most commonly used talk therapy, and how it relates
+					to other concepts.
+				</p>
+			</div>
+			<div class="grid-card">
+				<h3>Introspection & Identifying Inputs</h3>
+				<p>
+					How to get into a mental state to effectively work with your thoughts
+					and feelings. Identify several specific types of inputs to your brain.
+				</p>
+			</div>
+			<div class="grid-card">
+				<h3>Experience Processing & Validation</h3>
+				<p>
+					Principles and techniques you can use to more deeply understand your
+					experiences, and validate them with others.
+				</p>
+			</div>
+			<div class="grid-card">
+				<h3>Cognitive Restructuring / Refactoring</h3>
+				<p>
+					The most common unhelpful thought patterns, and how to counter them.
+				</p>
+			</div>
+			<div class="grid-card">
+				<h3>Modeling The Brain</h3>
+				<p>
+					A discrete mental model of how your mind works, especially around
+					thoughts and emotions.
+				</p>
+			</div>
+		</div>
+	</section>
+</main>

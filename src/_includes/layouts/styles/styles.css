@@ -71,3 +71,24 @@ h4 {
 p ~ p {
 	margin-top: var(--size-3);
 }
+
+section {
+	padding-block: 2rem;
+	margin: auto;
+	max-width: 50rem;
+	margin-top: 2rem;
+}
+
+section h2 {
+	padding-bottom: 2rem;
+}
+
+.grid-2-3 {
+	display: grid;
+	grid-template: auto / auto auto auto;
+	gap: 3rem;
+}
+
+.grid-card {
+	min-width: 10rem;
+}
