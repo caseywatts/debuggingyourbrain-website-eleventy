@@ -32,7 +32,7 @@ export default function (eleventyConfig) {
 export const config = {
 	dir: {
 		input: "src",
-		output: "public",
+		output: "_site",
 		// input: "content", // default: "."
 		// includes: "_includes", // default: "_includes"
 		// data: "../_data", // default: "_data"
